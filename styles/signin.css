@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 360px;
+  height: 800px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  background: url(../img/signIn-bg.jpeg);
+  background-size: 150vw;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#signIn {
+  margin-left: 6%;
+  display: block;
+  text-align: center;
+}
+#signIn input {
+  text-align: center;
+  padding: 14px 80px;
+  margin: 5px;
+  border-radius: 30px;
+  border: none;
+}
+#signIn input::placeholder {
+  text-align: center;
+}
+#signIn input:focus {
+  border: none;
+  outline: none;
+  text-align: center;
+}
